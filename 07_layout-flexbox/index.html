@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/normalize.css">
-  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <link rel="stylesheet" href="css/style.css">
 
   <title>Отели</title>
 </head>
@@ -14,55 +14,55 @@
 <body>
   <div class="container-content-body">
     <header class="header">
-      <div class="container-header">
-        <div class="header-info">
-          <img src="img/logo.svg" alt="logo" class="header-logo">
-          <a href="tel:+74953225448" class="contact-link">
-            +7 495 322-54-48
-          </a>
-          <a href="#" class="link header-account">
-            Личный кабинет
-          </a>
-        </div>
-        <div class="header-info-link">
-          <nav class="header-nav header-item">
-            <ul class="header-list">
-              <li class="header-list-item">
-                <a href="#" class="header-link">
-                  О нас
-                </a>
-              </li>
-              <li class="header-list-item">
-                <a href="#" class="header-link">
-                  Услуги
-                </a>
-              </li>
-              <li class="header-list-item">
-                <a href="#" class="header-link">
-                  Преимущества
-                </a>
-              </li>
-              <li class="header-list-item">
-                <a href="#" class="header-link">
-                  Размещение
-                </a>
-              </li>
-              <li class="header-list-item">
-                <a href="#" class="header-link">
-                  Блог
-                </a>
-              </li>
-              <li class="header-list-item">
-                <a href="#" class="header-link">
-                  Контакты
-                </a>
-              </li>
-            </ul>
-          </nav>
-          <button class="btn header-btn header-btn-tour">
+      <div class="header-info flex">
+        <img src="img/logo.svg" alt="logo" class="header-logo">
+        <a href="tel:+74953225448" class="contact-link header-link">
+          +7 495 322-54-48
+        </a>
+        <a href="#" class="link header-account header-link">
+          Личный кабинет
+        </a>
+      </div>
+      <div class="indent header-info-link flex">
+        <nav class="header-nav header-item">
+          <ul class="list-reset header-list flex">
+            <li class="header-list-item">
+              <a href="#" class="header-link">
+                О нас
+              </a>
+            </li>
+            <li class="header-list-item">
+              <a href="#" class="header-link">
+                Услуги
+              </a>
+            </li>
+            <li class="header-list-item">
+              <a href="#" class="header-link">
+                Преимущества
+              </a>
+            </li>
+            <li class="header-list-item">
+              <a href="#" class="header-link">
+                Размещение
+              </a>
+            </li>
+            <li class="header-list-item">
+              <a href="#" class="header-link">
+                Блог
+              </a>
+            </li>
+            <li class="header-list-item">
+              <a href="#" class="header-link">
+                Контакты
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="btn">
+          <button class="header-btn header-btn-tour">
             Хочу тур
           </button>
-          <button class="btn header-btn header-btn-call">
+          <button class="header-btn header-btn-call">
             Обратный звонок
           </button>
         </div>
@@ -71,46 +71,52 @@
     <main>
       <h1 class="title">Отель Lagoona</h1>
       <section class="specials">
-        <h2 class="section-text section-text-title">
+        <h2 class="sections-title section-text-title">
           Спецпредложения
         </h2>
-        <div class="special-block-left">
-          <div class="special-image-block">
-            <div class="special-content">
-              <p class="special-text special-text-left">
-                Мальдивские острова
-              </p>
-              <p class="special-text special-price-text">
-                от 55 000 ₽
-              </p>
-              <a href="#" class="special-link link">
-                Подробнее
-              </a>
+        <div class="indent special-container flex">
+          <div class="special-block special-block-left flex">
+            <div class="img-box special-image-block">
+              <article class="special-content flex">
+                <h3 class="special-title special-text special-text-left">
+                  Мальдивские острова
+                </h3>
+                <span class="special-text special-price-text">
+                  от 55 000 ₽
+                </span>
+                <a href="#" class="special-link link">
+                  Подробнее
+                </a>
+              </article>
+            </div>
+            <div class="img-box special-box-bottom">
+              <article class="special-content flex">
+                <h3 class="special-title special-text special-text-left">
+                  Горящий тур на&nbsp;остров Крит
+                </h3>
+                <span class="special-text special-price-text">
+                  от 30 000 ₽
+                </span>
+                <a href="#" class="special-link link">
+                  Подробнее
+                </a>
+              </article>
             </div>
           </div>
-          <div class="special-content special-box-bottom">
-            <p class="special-text special-text-left">
-              Горящий тур на&nbsp;остров Крит
-            </p>
-            <p class="special-text special-price-text">
-              от 30 000 ₽
-            </p>
-            <a href="#" class="special-link link">
-              Подробнее
-            </a>
-          </div>
-        </div>
-        <div class="special-image-block-right">
-          <div class="special-box special-content-right">
-            <p class="special-text special-title-card">
-              Номера категории люкс
-            </p>
-            <p class="special-text special-price-text-right">
-              от 5 000 ₽
-            </p>
-            <a href="#" class="special-link link">
-              Подробнее
-            </a>
+          <div class="special-image-block-right flex">
+            <div class="special-content special-block">
+              <article class="special-box special-content-right text-right flex">
+                <h3 class="special-title special-text special-title-card">
+                  Номера категории люкс
+                </h3>
+                <span class="special-text special-price-text">
+                  от 5 000 ₽
+                </span>
+                <a href="#" class="special-link link">
+                  Подробнее
+                </a>
+              </article>
+            </div>
           </div>
         </div>
       </section>
@@ -119,7 +125,7 @@
           <h2 class="sections-title about">
             О&nbsp;нас
           </h2>
-          <p class="sections-item sections-item-about">
+          <p class="indent sections-item sections-item-about">
             Идейные соображения высшего порядка, а&nbsp;также сложившаяся структура организации влечёт за&nbsp;собой
             процесс внедрения и&nbsp;модернизации системы обучения кадров, соответствует насущным потребностям.
             Идейные
@@ -137,25 +143,23 @@
           <h2 class="sections-title">
             Услуги
           </h2>
-          <div class="cards-block">
-            <ul class="cards-services">
+          <div class="indent cards-block flex">
+            <ul class="list-reset cards-services flex">
               <li class="card-services">
                 <div class="image-block-service"></div>
                 <div class="services-block-text">
-                  <div class="services-block-item-text">
-                    <a href="#" class="link-service">
-                      Эксклюзивное обслуживание
-                    </a>
-                    <p class="services-item-text">
-                      Равным образом постоянный количественный рост и&nbsp;сфера нашей активности
-                    </p>
-                  </div>
+                  <a href="#" class="link link-service">
+                    Эксклюзивное обслуживание
+                  </a>
+                  <p class="services-item-text">
+                    Равным образом постоянный количественный рост и&nbsp;сфера нашей активности
+                  </p>
                 </div>
               </li>
               <li class="card-services">
                 <div class="image-block-lease"></div>
                 <div class="services-block-text">
-                  <a href="#" class="link-service">
+                  <a href="#" class="link link-service">
                     Аренда банкетных залов
                   </a>
                   <p class="services-item-text">
@@ -166,7 +170,7 @@
               <li class="card-services">
                 <div class="image-block-services"></div>
                 <div class="services-block-text">
-                  <a href="#" class="link-service">
+                  <a href="#" class="link link-service">
                     Сауны, бассейны, бани, фитнес-залы
                   </a>
                   <p class="services-item-text">
@@ -177,7 +181,7 @@
               <li class="card-services">
                 <div class="image-block-parking"></div>
                 <div class="services-block-text">
-                  <a href="#" class="link-service">
+                  <a href="#" class="link link-service">
                     Охраняемые автомобильные стоянки
                   </a>
                   <p class="services-item-text">
@@ -194,7 +198,7 @@
           <h2 class="sections-title privilege">
             Преимущества
           </h2>
-          <ul class="cards-privilege">
+          <ul class="indent list-reset cards-privilege flex">
             <li class="card-privilege">
               <div class="image-block-privilage-1"></div>
               <p class="card-item-privilege">
@@ -252,200 +256,248 @@
           <h2 class="sections-title location">
             Размещение
           </h2>
-          <ul class="sections-cards-location">
+          <ul class="indent list-reset sections-cards-location flex">
             <li class="card-location">
               <div class="img-block-location-1"></div>
               <div class="block-location-text">
-                <div class="price-night">
-                  <span class="pretext">от</span>
-                  <span class="price">4 698 ₽</span>
-                  <span class="night">/ ночь</span>
-                  <img src="img/i-star.svg" alt="Рейтинг отеля 4 из 5">
-                  <img src="img/i-star.svg" alt="">
-                  <img src="img/i-star.svg" alt="">
-                  <img src="img/i-star.svg" alt="">
-                  <img src="img/i-star-empty.svg" alt="">
+                <div class="information-hotel flex">
+                  <div class="price-night ">
+                    <span class="pretext">от</span>
+                    <span class="price">4 698 ₽</span>
+                    <span class="night">/ ночь</span>
+                  </div>
+                  <div class="rating-star">
+                    <img src="img/i-star.svg" alt="Рейтинг отеля 4 из 5">
+                    <img src="img/i-star.svg" alt="">
+                    <img src="img/i-star.svg" alt="">
+                    <img src="img/i-star.svg" alt="">
+                    <img src="img/i-star-empty.svg" alt="">
+                  </div>
                 </div>
-                <p class="card-item-text">
+                <h3 class="card-item-text">
                   Lagoona espa&ntilde;ola
-                </p>
-                <p class="card-item-text text-location">
+                </h3>
+                <span class="card-item-text text-location">
                   Барселона, Испания
-                </p>
-                <button class="btn btn-location">
-                  Номера
-                </button>
+                </span>
+                <div class="btn">
+                  <button class="btn-location">
+                    Номера
+                  </button>
+                </div>
               </div>
             </li>
             <li class="card-location">
               <div class="img-block-location-2"></div>
               <div class="block-location-text">
-                <div class="price-night">
-                  <span class="pretext">от</span>
-                  <span class="price">5 148 ₽</span>
-                  <span class="night">/ ночь</span>
-                  <img src="img/i-star.svg" alt="Рейтинг отеля 4 из 5">
-                  <img src="img/i-star.svg" alt="">
-                  <img src="img/i-star.svg" alt="">
-                  <img src="img/i-star.svg" alt="">
-                  <img src="img/i-star-empty.svg" alt="">
+                <div class="information-hotel flex">
+                  <div class="price-night">
+                    <span class="pretext">от</span>
+                    <span class="price">5 148 ₽</span>
+                    <span class="night">/ ночь</span>
+                  </div>
+                  <div class="rating-star">
+                    <img src="img/i-star.svg" alt="Рейтинг отеля 4 из 5">
+                    <img src="img/i-star.svg" alt="">
+                    <img src="img/i-star.svg" alt="">
+                    <img src="img/i-star.svg" alt="">
+                    <img src="img/i-star-empty.svg" alt="">
+                  </div>
                 </div>
-                <p class="card-item-text">
+                <h3 class="card-item-text">
                   Lagoona son t&iacute;picas
-                </p>
-                <p class="card-item-text text-location">
+                </h3>
+                <span class="card-item-text text-location">
                   Барселона, Испания
-                </p>
-                <button class="btn btn-location">
-                  Номера
-                </button>
+                </span>
+                <div class="btn">
+                  <button class="btn-location">
+                    Номера
+                  </button>
+                </div>
               </div>
             </li>
             <li class="card-location">
               <div class="img-block-location-3"></div>
               <div class="block-location-text">
-                <div class="price-night">
-                  <span class="pretext">от</span>
-                  <span class="price">6 254 ₽</span>
-                  <span class="night">/ ночь</span>
-                  <img src="img/i-star.svg" alt="Рейтинг отеля 5 из 5">
-                  <img src="img/i-star.svg" alt="">
-                  <img src="img/i-star.svg" alt="">
-                  <img src="img/i-star.svg" alt="">
-                  <img src="img/i-star.svg" alt="">
+                <div class="information-hotel flex">
+                  <div class="price-night ">
+                    <span class="pretext">от</span>
+                    <span class="price">6 254 ₽</span>
+                    <span class="night">/ ночь</span>
+                  </div>
+                  <div class="rating-star">
+                    <img src="img/i-star.svg" alt="Рейтинг отеля 5 из 5">
+                    <img src="img/i-star.svg" alt="">
+                    <img src="img/i-star.svg" alt="">
+                    <img src="img/i-star.svg" alt="">
+                    <img src="img/i-star.svg" alt="">
+                  </div>
                 </div>
-                <p class="card-item-text">
+                <h3 class="card-item-text">
                   Lagoona de&nbsp;la&nbsp;guerra
-                </p>
-                <p class="card-item-text text-location">
+                </h3>
+                <span class="card-item-text text-location">
                   Барселона, Испания
-                </p>
-                <button class="btn btn-location">
-                  Номера
-                </button>
+                </span>
+                <div class="btn">
+                  <button class="btn-location">
+                    Номера
+                  </button>
+                </div>
               </div>
             </li>
             <li class="card-location">
               <div class="img-block-location-4"></div>
               <div class="block-location-text">
-                <div class="price-night">
-                  <span class="pretext">от</span>
-                  <span class="price">6 320 ₽</span>
-                  <span class="night">/ ночь</span>
-                  <img src="img/i-star.svg" alt="Рейтинг отеля 5 из 5">
-                  <img src="img/i-star.svg" alt="">
-                  <img src="img/i-star.svg" alt="">
-                  <img src="img/i-star.svg" alt="">
-                  <img src="img/i-star.svg" alt="">
+                <div class="information-hotel flex">
+                  <div class="price-night ">
+                    <span class="pretext">от</span>
+                    <span class="price">6 320 ₽</span>
+                    <span class="night">/ ночь</span>
+                  </div>
+                  <div class="rating-star">
+                    <img src="img/i-star.svg" alt="Рейтинг отеля 5 из 5">
+                    <img src="img/i-star.svg" alt="">
+                    <img src="img/i-star.svg" alt="">
+                    <img src="img/i-star.svg" alt="">
+                    <img src="img/i-star.svg" alt="">
+                  </div>
                 </div>
-                <p class="card-item-text">
+                <h3 class="card-item-text">
                   Lagoona mentira piadosa
-                </p>
-                <p class="card-item-text text-location">
+                </h3>
+                <span class="card-item-text text-location">
                   Барселона, Испания
-                </p>
-                <button class="btn btn-location">
-                  Номера
-                </button>
+                </span>
+                <div class="btn">
+                  <button class="btn-location">
+                    Номера
+                  </button>
+                </div>
               </div>
             </li>
             <li class="card-location">
               <div class="img-block-location-5"></div>
               <div class="block-location-text">
-                <div class="price-night">
-                  <span class="pretext">от</span>
-                  <span class="price">6 457 ₽</span>
-                  <span class="night">/ ночь</span>
-                  <img src="img/i-star.svg" alt="Рейтинг отеля 4 из 5">
-                  <img src="img/i-star.svg" alt="">
-                  <img src="img/i-star.svg" alt="">
-                  <img src="img/i-star.svg" alt="">
-                  <img src="img/i-star-empty.svg" alt="">
+                <div class="information-hotel flex">
+                  <div class="price-night ">
+                    <span class="pretext">от</span>
+                    <span class="price">6 457 ₽</span>
+                    <span class="night">/ ночь</span>
+                  </div>
+                  <div class="rating-star">
+                    <img src="img/i-star.svg" alt="Рейтинг отеля 4 из 5">
+                    <img src="img/i-star.svg" alt="">
+                    <img src="img/i-star.svg" alt="">
+                    <img src="img/i-star.svg" alt="">
+                    <img src="img/i-star-empty.svg" alt="">
+                  </div>
                 </div>
-                <p class="card-item-text">
+                <h3 class="card-item-text">
                   Lagoona empujar la&nbsp;creatividad
-                </p>
-                <p class="card-item-text text-location">
+                </h3>
+                <span class="card-item-text text-location">
                   Барселона, Испания
-                </p>
-                <button class="btn btn-location">
-                  Номера
-                </button>
+                </span>
+                <div class="btn">
+                  <button class="btn-location">
+                    Номера
+                  </button>
+                </div>
               </div>
             </li>
             <li class="card-location">
               <div class="img-block-location-6"></div>
               <div class="block-location-text">
-                <div class="price-night">
-                  <span class="pretext">от</span>
-                  <span class="price">6 320 ₽</span>
-                  <span class="night">/ ночь</span>
-                  <img src="img/i-star.svg" alt="Рейтинг отеля 4 из 5">
-                  <img src="img/i-star.svg" alt="">
-                  <img src="img/i-star.svg" alt="">
-                  <img src="img/i-star.svg" alt="">
-                  <img src="img/i-star-empty.svg" alt="">
+                <div class="information-hotel flex">
+                  <div class="price-night ">
+                    <span class="pretext">от</span>
+                    <span class="price">6 320 ₽</span>
+                    <span class="night">/ ночь</span>
+                  </div>
+                  <div class="rating-star">
+                    <img src="img/i-star.svg" alt="Рейтинг отеля 4 из 5">
+                    <img src="img/i-star.svg" alt="">
+                    <img src="img/i-star.svg" alt="">
+                    <img src="img/i-star.svg" alt="">
+                    <img src="img/i-star-empty.svg" alt="">
+                  </div>
                 </div>
-                <p class="card-item-text">
+                <h3 class="card-item-text">
                   Lagoona el&nbsp;retorno
-                </p>
-                <p class="card-item-text text-location">
+                </h3>
+                <span class="card-item-text text-location">
                   Барселона, Испания
-                </p>
-                <button class="btn btn-location">
-                  Номера
-                </button>
+                </span>
+                <div class="btn">
+                  <button class="btn-location">
+                    Номера
+                  </button>
+                </div>
               </div>
             </li>
             <li class="card-location">
               <div class="img-block-location-7"></div>
               <div class="block-location-text">
-                <div class="price-night">
-                  <span class="pretext">от</span>
-                  <span class="price">6 505 ₽</span>
-                  <span class="night">/ ночь</span>
-                  <img src="img/i-star.svg" alt="Рейтинг отеля 5 из 5">
-                  <img src="img/i-star.svg" alt="">
-                  <img src="img/i-star.svg" alt="">
-                  <img src="img/i-star.svg" alt="">
-                  <img src="img/i-star.svg" alt="">
+                <div class="information-hotel flex">
+                  <div class="price-night ">
+                    <span class="pretext">от</span>
+                    <span class="price">6 505 ₽</span>
+                    <span class="night">/ ночь</span>
+                  </div>
+                  <div class="rating-star">
+                    <img src="img/i-star.svg" alt="Рейтинг отеля 5 из 5">
+                    <img src="img/i-star.svg" alt="">
+                    <img src="img/i-star.svg" alt="">
+                    <img src="img/i-star.svg" alt="">
+                    <img src="img/i-star.svg" alt="">
+                  </div>
                 </div>
-                <p class="card-item-text">
+                <h3 class="card-item-text">
                   Lagoona mentira piadosa
-                </p>
-                <p class="card-item-text text-location">
+                </h3>
+                <span class="card-item-text text-location">
                   Барселона, Испания
-                </p>
-                <button class="btn btn-location">
-                  Номера
-                </button>
+                </span>
+                <div class="btn">
+                  <button class="btn-location">
+                    Номера
+                  </button>
+                </div>
               </div>
             </li>
             <li class="card-location">
               <div class="img-block-location-8"></div>
               <div class="block-location-text">
-                <div class="price-night">
-                  <span class="pretext">от</span>
-                  <span class="price">6 824 ₽</span>
-                  <span class="night">/ ночь</span>
-                  <img src="img/i-star.svg" alt="Рейтинг отеля 4 из 5">
-                  <img src="img/i-star.svg" alt="">
-                  <img src="img/i-star.svg" alt="">
-                  <img src="img/i-star.svg" alt="">
-                  <img src="img/i-star-empty.svg" alt="">
+                <div class="information-hotel flex">
+                  <div class="price-night ">
+                    <span class="pretext">от</span>
+                    <span class="price">6 824 ₽</span>
+                    <span class="night">/ ночь</span>
+                  </div>
+                  <div class="rating-star">
+                    <img src="img/i-star.svg" alt="Рейтинг отеля 4 из 5">
+                    <img src="img/i-star.svg" alt="">
+                    <img src="img/i-star.svg" alt="">
+                    <img src="img/i-star.svg" alt="">
+                    <img src="img/i-star-empty.svg" alt="">
+                  </div>
                 </div>
-                <p class="card-item-text">
+                <h3 class="card-item-text">
                   Lagoona suerte sigui&oacute; siempre
-                </p>
-                <p class="card-item-text text-location">
+                </h3>
+                <span class="card-item-text text-location">
                   Барселона, Испания
-                </p>
-                <button class="btn btn-location">
-                  Номера
-                </button>
+                </span>
+                <div class="btn">
+                  <button class="btn-location">
+                    Номера
+                  </button>
+                </div>
               </div>
             </li>
-            <li class="card-location">
+            <li class="card-location options-block">
               <div class="img-block-location-9">
                 <a href="#" class="card-location-link">
                   Посмотреть все варианты
@@ -455,12 +507,12 @@
           </ul>
         </div>
       </section>
-      <section class="tour">
+      <!-- <section class="tour indent">
         <h2 class="section-title-tour">
           Хочу тур
         </h2>
-        <div class="section-item-tour">
-          <div class="section-tour-city">
+        <div class="section-item-tour flex">
+          <div class="section-tour section-tour-city">
             <label for="#" class="select-title">
               Город вылета
             </label>
@@ -470,7 +522,7 @@
               </option>
             </select>
           </div>
-          <div class="section-tour-country">
+          <div class="section-tour section-tour-country">
             <label for="#" class="select-title">
               Страна
             </label>
@@ -480,30 +532,32 @@
               </option>
             </select>
           </div>
-          <div class="section-tour-date">
+          <div class="section-tour section-tour-date">
             <label for="#" class="select-title">
               Дата прибытия
             </label>
             <input type="date" value="2021-10-18" name="date-departure" class="select">
           </div>
-          <div class="section-tour-nights">
+          <div class="section-tour section-tour-nights">
             <label for="#" class="select-title night-number">
               Ночей
             </label>
             <input type="number" value="6" name="night" class="select">
           </div>
-          <div class="section-tour-tourists">
+          <div class="section-tour section-tour-tourists">
             <label for="#" class="select-title">
               Туристы
             </label>
             <input type="number" value="2" name="tourists" class="select">
           </div>
-          <button class="btn btn-tour">
-            Найти
-          </button>
+          <div class="btn">
+            <button class="btn-tour">
+              Найти
+            </button>
+          </div>
         </div>
-      </section>
-      <section>
+      </section> -->
+      <!-- <section>
         <h2 class="sections-title">
           Контакты
         </h2>
@@ -566,12 +620,12 @@
           <div class="img-hotel">
           </div>
         </div>
-      </section>
+      </section> -->
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="footer-item">
         <div class="footer-text footer-text-left">
-          <ul class="footer-info">
+          <ul class="list-reset footer-info">
             <li class="footer-item-text text-left-1">
               &copy;&nbsp;2012&ndash;2020 Управляющая компания Объединённой сети &laquo;Лагуна Хотелс&raquo;
             </li>
@@ -587,7 +641,7 @@
           </ul>
         </div>
         <div class="footer-text footer-text-right">
-          <ul class="footer-info">
+          <ul class="list-reset footer-info">
             <li class="footer-item-text text-right">
               11710, улица Юности, дом 5&nbsp;строение&nbsp;4, офис&nbsp;2
             </li>
@@ -610,7 +664,7 @@
           </ul>
           <div class="img-sun-footer"></div>
           <div class="icon-social">
-            <ul class="footer-social">
+            <ul class="list-reset footer-social">
               <li class="footer-social-icon icon-1">
                 <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <a href="#">
@@ -660,7 +714,7 @@
           </div>
         </div>
       </div>
-    </footer>
+    </footer> -->
   </div>
 </body>
 
