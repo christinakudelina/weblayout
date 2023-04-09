@@ -682,7 +682,6 @@ a {
 
 /* contacts */
 .container-contacts {
-  position: relative;
   margin-bottom: 40px;
   padding: 45px 45px;
   min-height: 618px;
@@ -739,14 +738,11 @@ a {
 }
 
 .img-hotel {
-  position: absolute;
-  background-image: url(../img/img-hotel.jpg);
-  background-repeat: no-repeat;
   width: 653px;
-  min-height: 528px;
+  background-image: url(../img/img-hotel.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
   background-size: cover;
-  top: 45px;
-  right: 45px;
 }
 
 /* footer */
