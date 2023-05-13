@@ -52,6 +52,16 @@ document.getElementsByClassName('.form__btn-open')/addEventListener('submit', (e
   e.preventDefault()
 })
 
+// свайпер
+const swiper = new Swiper('.hero__swiper', {
+
+  loop: true,
+
+  pagination: {
+    el: '.hero__pagination',
+    clickable: true,
+  },
+});
 
 // аккордион
 let buttons = Array.from(document.querySelectorAll('.faq__btn'));
@@ -93,19 +103,6 @@ tabs.forEach((tab, index) => {
     tab_img[index].classList.add('tabs--active');
   })
 })
-
-// свайпер
-const swiper = new Swiper('.hero__swiper', {
-
-  loop: true,
-
-  pagination: {
-    el: '.hero__pagination',
-    clickable: true,
-  },
-});
-
-
 
 
 

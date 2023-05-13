@@ -603,13 +603,14 @@
     border-radius: 15px;
   }
 
-  .hero__pagination {
-    bottom: 16px;
-  }
-
-  .hero__pagination-bullet {
+  .swiper-pagination-bullet {
     width: 10px;
     height: 10px;
+  }
+
+  .swiper-horizontal>.swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 16px;
   }
 
   .hero__wrapper {
