@@ -9,26 +9,21 @@
 }
 
 @media (max-width: 1200px) {
-  /* .header__nav {
-    display: none;
-  } */
-
   .header__nav {
     position: absolute;
-    left: 0;
-    top: 0;
+    top: -13px;
+    left: -500px;
     width: 420px;
     max-height: 100vh;
     z-index: 1000;
     padding: 170px 50px;
-    box-shadow: 0 0 5px #888;
+    margin: 0;
     background-color: #fff;
     overflow-y: auto;
     visibility: hidden;
     box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
     border-radius: 0px 0px 32px 32px;
-    transform: translateX(-120%);
-    transition: visibility 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transition: visibility 0.3s ease-in-out, left 0.3s ease-in-out;
   }
 
   .header__content {
@@ -75,16 +70,11 @@
 
   .header__nav--active {
     visibility: visible;
-    transform: none;
+    left: -15px;
   }
 
   .header__nav .nav__list {
     flex-direction: column;
-  }
-
-  .header__nav .nav__item:not(:last-child) {
-    margin-right: 0;
-    margin-bottom: 30px;
   }
 
   .header__nav .nav__link {
@@ -112,6 +102,10 @@
     transform: rotate(-45deg);
     transform-origin: center;
     transition: transform 0.3s ease-in-out, top 0.3s ease-in-out, left 0.3s ease-in-out;
+  }
+
+  .nav__list {
+    gap: 60px;
   }
 
   .header__nav--active .nav__list {
@@ -293,24 +287,22 @@
 
   .header__nav {
     position: absolute;
-    left: 0;
-    top: 0;
+    left: -500px;
+    top: -8px;
     max-height: 100vh;
     z-index: 1000;
     padding: 152px 50px;
-    box-shadow: 0 0 5px #888;
     background-color: #fff;
     overflow-y: auto;
     visibility: hidden;
     box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
     border-radius: 0px 0px 32px 32px;
-    transform: translateX(-120%);
-    transition: visibility 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transition: visibility 0.3s ease-in-out, left 0.3s ease-in-out;
   }
 
   .header__nav--active {
     visibility: visible;
-    transform: none;
+    left: -16px;
   }
 
   .hero__container {
@@ -531,26 +523,23 @@
 
   .header__nav {
     position: absolute;
-    left: 0;
-    top: 0;
     width: 320px;
     max-height: 100vh;
     z-index: 1000;
     padding: 78px 15px;
-    box-shadow: 0 0 5px #888;
     background-color: #fff;
     overflow-y: auto;
     visibility: hidden;
     box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
     border-radius: 0px 0px 32px 32px;
-    transform: translateX(-120%);
-    transition: visibility 0.3s ease-in-out, transform 0.3s ease-in-out;
   }
 
   .header__nav--active {
     visibility: visible;
-    transform: none;
-    width: 320px;
+  }
+
+  .nav__list {
+    gap: 32px;
   }
 
   .header__nav--active .nav__list {
