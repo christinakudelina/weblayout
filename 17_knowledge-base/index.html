@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/choices.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css"/>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page">
+  <div class="container">
+    <form class="checkbox">
+      <h3 class="checkbox__title">Категории:</h3>
+      <label for="check" class="checkbox__wrapper">
+        <input type="checkbox" class="check" name="chek" id="check">
+        Динозавры
+        <span></span>
+      </label>
+      <label for="check2" class="checkbox__wrapper">
+        <input type="checkbox" class="check" name="chek" id="check2">
+        Медведи
+        <span></span>
+      </label>
+      <label for="check3" class="checkbox__wrapper">
+        <input type="checkbox" class="check" name="chek" id="check3">
+        Косули
+        <span></span>
+      </label>
+      <label for="check4" class="checkbox__wrapper">
+        <input type="checkbox" class="check" name="chek" id="check4">
+        Лисы
+        <span></span>
+      </label>
+      <label for="check5" class="checkbox__wrapper">
+        <input type="checkbox" class="check" name="chek" id="check5">
+        Волки
+        <span></span>
+      </label>
+      <label for="check6" class="checkbox__wrapper">
+        <input type="checkbox" class="check" name="chek" id="check6">
+        Олени и лоси
+        <span></span>
+      </label>
+    </form>
+    <div class="select">
+      <select name="select" class="js-choice">
+        <option value="">Материал</option>
+        <option>Древесина</option>
+        <option>Металл</option>
+        <option>Камень</option>
+        <option>Пластик</option>
+        <option>Композитный</option>
+        <option>Гипс</option>
+      </select>
+    </div>
+    <div class="container__map">
+      <span class="map__descr">
+        В&nbsp;качестве адреса для маркера используйте: Франция, Иль-де-Франс, Париж, X&nbsp;округ Парижа, улица дю&nbsp;Фобур Сен Дени&nbsp;54
+      </span>
+      <div class="map" id="map">
+      </div>
+    </div>
+    <div class="skroll" data-simplebar>
+      <span class="scroll__item">
+        Сложно сказать, почему многие известные личности представлены в&nbsp;исключительно положительном свете. Лишь активно развивающиеся страны третьего мира будут объективно рассмотрены соответствующими инстанциями. Мы&nbsp;вынуждены отталкиваться от&nbsp;того, что высокотехнологичная концепция общественного уклада представляет собой интересный эксперимент проверки глубокомысленных рассуждений. Имеется спорная точка зрения, гласящая примерно следующее: непосредственные участники технического прогресса освещают чрезвычайно интересные особенности картины в&nbsp;целом, однако конкретные выводы, разумеется, обнародованы. Значимость этих проблем настолько очевидна, что социально-экономическое развитие, а&nbsp;также свежий взгляд на&nbsp;привычные вещи&nbsp;&mdash; безусловно открывает новые горизонты для первоочередных требований.
+      </span>
+    </div>
+    <form id="form" class="form">
+      <div class="form__box">
+        <input class="form__input" id="name" type="text" placeholder="Имя*" autocomplete="off">
+      </div>
+      <div class="form__box">
+        <input class="form__input" id="phone" type="text" placeholder="Телефон*" autocomplete="off">
+      </div>
+      <div class="form__box">
+        <input class="form__input" id="email" type="email" placeholder="E-mail*" autocomplete="off">
+      </div>
+      <button class="form__btn">Заказать</button>
+    </form>
+    <div class="tooltip">
+      <span class="tooltip__item">
+        Следует отметить, что социально-экономическое развитие способствует повышению качества переосмысления внешнеэкономических политик.
+      </span>
+      <span class="tooltip__marker">i</span>
+      <div class="popup">Глава 2, страница 176</div>
+    </div>
+  </div>
+  <script src="js/choices.min.js"></script>
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>
+  <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+  <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+  <script src="js/inputmask.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
